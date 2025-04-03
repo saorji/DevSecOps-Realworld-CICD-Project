@@ -32,7 +32,7 @@
     - Login to `Your GitHub Account`
     - Create a Repository called `DevSecOps-Realworld-CICD-Project`
     - Clone the Repository in the `Repository` directory/folder on your `local machine`
-    - Download the code in in this repository `"dev-sec-ops-cicd-pipeline-project-one branch"`: https://github.com/awanmbandi/realworld-microservice-project.git
+    - Download the code in in this repository `"DevSecOps-Realworld-CICD-Project"`: https://github.com/saorji/DevSecOps-Realworld-CICD-Project
     - `Unzip` the `code/zipped file`
     - `Copy` and `Paste` everything `from the zipped file` into the `repository you cloned` in your local
     - Open your `Terminal`
@@ -148,7 +148,7 @@ docker volume inspect volume sonarqube-volume
 - Run the following commands to deploy the `EKS Cluster` in the `Jenkins-CI`
 ```bash
 # Clone your project reporisoty
-git clone https://github.com/awanmbandi/realworld-microservice-project.git
+git clone https://github.com/saorji/DevSecOps-Realworld-CICD-Project.git
 
 # cd and checkout into the DevSecOps project branch
 cd realworld-microservice-project && git checkout dev-sec-ops-cicd-pipeline-project-one
